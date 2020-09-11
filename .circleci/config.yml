@@ -1,0 +1,5 @@
+# Use the latest 2.1 version of CircleCI pipel
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
